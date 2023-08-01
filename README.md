@@ -12,3 +12,6 @@
 
 ## Компоненты Docker
 ![Компоненты Docker](https://github.com/kkksarek/DockerZeroCourse/blob/main/img/Docker_Architecture_example_1.png)
+
+Docker имеет клиент-серверную архитектуру, где в большинстве случаев в качестве клиента выступает консольная утилита docker, а в роли сервера docker daemon.
+Docker daemon берет образ (image) и разворачивает из него контейнер (container). Хранение образов осуществляется в хранилище (registry), которое может быть как общедоступным, так и локальным.
